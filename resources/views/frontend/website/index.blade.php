@@ -33,7 +33,7 @@
 																		<div
 																			class="tq-feat-img position-relative w-100">
 																			<img decoding="async" class="img-fluid"
-																				src="images/tq-feat-img3.png.webp"
+																				src="{{ asset('frontend/images/tq-feat-img3.png.webp') }}"
 																				alt="Slider Image" loading="lazy">
 																		</div><!-- Featured Image -->
 																	</div>
@@ -62,7 +62,7 @@
 																		<div
 																			class="tq-feat-img position-relative w-100">
 																			<img decoding="async" class="img-fluid"
-																				src="images/tq-feat-img2.png.webp"
+																				src="{{ asset('frontend/images/tq-feat-img2.png.webp') }}"
 																				alt="Slider Image" loading="lazy">
 																		</div><!-- Featured Image -->
 																	</div>
@@ -91,7 +91,7 @@
 																		<div
 																			class="tq-feat-img position-relative w-100">
 																			<img decoding="async" class="img-fluid"
-																				src="images/tq-feat-img1.png.webp"
+																				src="{{ asset('frontend/images/tq-feat-img1.png.webp') }}"
 																				alt="Slider Image" loading="lazy">
 																		</div><!-- Featured Image -->
 																	</div>
@@ -119,7 +119,7 @@
 											</div>
 										</div>
 										<div class="tq-shape-box tq-mb-30 position-relative text-center w-100">
-											<img decoding="async" class="img-fluid" src="images/shape1.png"
+											<img decoding="async" class="img-fluid" src="{{ asset('frontend/images/shape1.png') }}"
 												alt="Slider Image" loading="lazy">
 										</div>
 									</section>
@@ -151,7 +151,7 @@
 													class="tq-sec-title-wrapper d-flex flex-column align-items-center text-center position-relative w-100">
 													<div
 														class="tq-sec-title d-flex flex-column align-items-center text-center">
-														<img decoding="async" class="img-fluid" src="images/shape2.png"
+														<img decoding="async" class="img-fluid" src="{{ asset('frontend/images/shape2.png') }}"
 															alt="">
 														<span>Welcome to the Islamic center</span>
 														<h2 class="mb-0">In The Name Of Allah <br> The Beneficent The
@@ -184,7 +184,7 @@
 																	<div
 																		class="tq-post-icon position-relative rounded-circle">
 																		<img decoding="async" class="img-fluid"
-																			src="images/tq-vision-icon.png.webp" alt="">
+																			src="{{ asset('frontend/images/tq-vision-icon.png.webp') }}" alt="">
 																	</div><!-- Post Icon -->
 
 																	<div class="tq-post-cap d-flex flex-column">
@@ -202,7 +202,7 @@
 																	<div
 																		class="tq-post-icon position-relative rounded-circle">
 																		<img decoding="async" class="img-fluid"
-																			src="images/tq-mission-icon.png.webp"
+																			src="{{ asset('frontend/images/tq-mission-icon.png.webp') }}"
 																			alt="">
 																	</div><!-- Post Icon -->
 
@@ -228,7 +228,7 @@
 
 
 													<img decoding="async" class="img-fluid"
-														src="images/tq-about-img.jpg.webp" alt="In The Name Of Allah"
+														src="{{ asset('frontend/images/tq-about-img.jpg.webp') }}" alt="In The Name Of Allah"
 														loading="lazy">
 
 
@@ -722,7 +722,7 @@
 													class="tq-sec-title-wrapper d-flex flex-column align-items-center text-center position-relative w-100">
 													<div
 														class="tq-sec-title d-flex flex-column align-items-center text-center">
-														<img decoding="async" class="img-fluid" src="images/shape2.png"
+														<img decoding="async" class="img-fluid" src="{{ asset('frontend/images/shape2.png') }}"
 															loading="lazy">
 														<span>What We Offer</span>
 														<h2 class="mb-0">Our Services</h2>
@@ -734,7 +734,7 @@
 															<div
 																class="tq-service-img mix-blend-difference-layer position-relative text-center w-100">
 																<img decoding="async" class="img-fluid"
-																	src="images/tq-feat-img2.png.webp"
+																	src="{{ asset('frontend/images/tq-feat-img2.png.webp') }}"
 																	alt="Service Image" loading="lazy">
 															</div><!-- Service Image -->
 														</div>
@@ -1099,14 +1099,14 @@ C502.07,180.55,518.51,190.36,526,212z"></path>
 																	<div
 																		class="tq-pillar-head d-flex flex-column align-items-center w-100">
 																		<img decoding="async" class="img-fluid"
-																			src="images/pillar-1.png" alt="(Faith)">
+																			src="{{ asset('frontend/images/pillar-1.png') }}" alt="(Faith)">
 																		<h4 class="mb-0">Shahadah <br>(Faith)</h4>
 																	</div><!-- Pillar Head -->
 																	<div
 																		class="tq-pillar-body d-flex flex-column align-items-center w-100">
 																		<span class="rounded-circle"><img
 																				class="img-fluid rounded-circle"
-																				src="images/tq-pillar-img1.jpg.webp"
+																				src="{{ asset('frontend/images/tq-pillar-img1.jpg.webp') }}"
 																				alt="Shahadah" loading="lazy"></span>
 																		<p class="mb-0">To Believe in no God but Allah
 																			and that Muhammad is his prophet.</p>
@@ -1155,7 +1155,7 @@ C502.07,180.55,518.51,190.36,526,212z"></path>
 																		class="tq-pillar-body d-flex flex-column align-items-center w-100">
 																		<span class="rounded-circle"><img
 																				class="img-fluid rounded-circle"
-																				src="images/tq-pillar-img2.jpg.webp"
+																				src="{{ asset('frontend/images/tq-pillar-img2.jpg.webp') }}"
 																				alt="Salah" loading="lazy"></span>
 																		<p class="mb-0">To Believe in no God but Allah
 																			and that Muhammad is his prophet.</p>
@@ -1204,7 +1204,7 @@ C502.07,180.55,518.51,190.36,526,212z"></path>
 																		class="tq-pillar-body d-flex flex-column align-items-center w-100">
 																		<span class="rounded-circle"><img
 																				class="img-fluid rounded-circle"
-																				src="images/tq-pillar-img3.jpg.webp"
+																				src="{{ asset('frontend/images/tq-pillar-img3.jpg.webp') }}"
 																				alt="Sawm" loading="lazy"></span>
 																		<p class="mb-0">To Believe in no God but Allah
 																			and that Muhammad is his prophet.</p>
@@ -1246,7 +1246,7 @@ C502.07,180.55,518.51,190.36,526,212z"></path>
 																	<div
 																		class="tq-pillar-head d-flex flex-column align-items-center w-100">
 																		<img decoding="async" class="img-fluid"
-																			src="images/pillar-1.png"
+																			src="{{ asset('frontend/') }}images/pillar-1.png"
 																			alt="(Almsgiving)">
 																		<h4 class="mb-0">Zakat <br>(Almsgiving)</h4>
 																	</div><!-- Pillar Head -->
@@ -1254,7 +1254,7 @@ C502.07,180.55,518.51,190.36,526,212z"></path>
 																		class="tq-pillar-body d-flex flex-column align-items-center w-100">
 																		<span class="rounded-circle"><img
 																				class="img-fluid rounded-circle"
-																				src="images/tq-pillar-img4.jpg.webp"
+																				src="{{ asset('frontend/images/tq-pillar-img4.jpg.webp') }}"
 																				alt="Zakat" loading="lazy"></span>
 																		<p class="mb-0">To Believe in no God but Allah
 																			and that Muhammad is his prophet.</p>
@@ -1296,7 +1296,7 @@ C502.07,180.55,518.51,190.36,526,212z"></path>
 																	<div
 																		class="tq-pillar-head d-flex flex-column align-items-center w-100">
 																		<img decoding="async" class="img-fluid"
-																			src="images/pillar-1.png"
+																			src="{{ asset('frontend/images/pillar-1.png') }}"
 																			alt="(Pilgrimage)">
 																		<h4 class="mb-0">Hajj <br>(Pilgrimage)</h4>
 																	</div><!-- Pillar Head -->
@@ -1304,7 +1304,7 @@ C502.07,180.55,518.51,190.36,526,212z"></path>
 																		class="tq-pillar-body d-flex flex-column align-items-center w-100">
 																		<span class="rounded-circle"><img
 																				class="img-fluid rounded-circle"
-																				src="images/tq-pillar-img5.jpg.webp"
+																				src="{{ asset('frontend/images/tq-pillar-img5.jpg.webp') }}"
 																				alt="Hajj" loading="lazy"></span>
 																		<p class="mb-0">To Believe in no God but Allah
 																			and that Muhammad is his prophet.</p>
@@ -1743,7 +1743,7 @@ C502.07,180.55,518.51,190.36,526,212z"></path>
 													class="tq-sec-title-wrapper d-flex flex-column align-items-center text-center position-relative w-100">
 													<div
 														class="tq-sec-title d-flex flex-column align-items-center text-center">
-														<img decoding="async" class="img-fluid" src="images/shape2.png"
+														<img decoding="async" class="img-fluid" src="{{ asset('frontend/images/shape2.png') }}"
 															alt="Recent Articles" loading="lazy">
 														<span>Recent Articles</span>
 														<h2 class="mb-0">Tips & Guide</h2>
@@ -1762,7 +1762,7 @@ C502.07,180.55,518.51,190.36,526,212z"></path>
 																			2023</i></span>
 																	<a href="javascript:void(0);"><img
 																			class="img-fluid w-100"
-																			src="images/blog-2-qjvx0tty6ugm9ugfgfv9r21udupdonxsu19s3oe8lc.jpg"
+																			src="{{ asset('frontend/images/blog-2-qjvx0tty6ugm9ugfgfv9r21udupdonxsu19s3oe8lc.jpg') }}"
 																			alt="Islamic Religious Practices and Rituals"
 																			loading="lazy"></a>
 																</div><!-- Recent Post Image -->
@@ -1795,7 +1795,7 @@ C502.07,180.55,518.51,190.36,526,212z"></path>
 																			2023</i></span>
 																	<a href="javascript:void(0);"><img
 																			class="img-fluid w-100"
-																			src="images/blog-1-qjvwzbbb6gdzkgnmasawqft3xi63a7xdajfm9mn2m8.jpg"
+																			src="{{ asset('frontend/images/blog-1-qjvwzbbb6gdzkgnmasawqft3xi63a7xdajfm9mn2m8.jpg') }}"
 																			alt="Islamic Religious Practices and Rituals"
 																			loading="lazy"></a>
 																</div><!-- Recent Post Image -->
@@ -1828,7 +1828,7 @@ C502.07,180.55,518.51,190.36,526,212z"></path>
 																			2023</i></span>
 																	<a href="javascript:void(0);"><img
 																			class="img-fluid w-100"
-																			src="images/blog-3-qjvx2jvapwtjk3ybe6onbme9la7lsos32kbtrxu96o.jpg"
+																			src="{{ asset('frontend/images/blog-3-qjvx2jvapwtjk3ybe6onbme9la7lsos32kbtrxu96o.jpg') }}"
 																			alt="Islamic Religious Practices and Rituals"
 																			loading="lazy"></a>
 																</div><!-- Recent Post Image -->
@@ -1907,25 +1907,25 @@ C502.07,180.55,518.51,190.36,526,212z"></path>
 		c-13.62-1.47-25.03-7.59-35.44-16.06c-16.04-13.04-28.3-29.56-41.61-45.12C18.72,302.43,10.67,292.41,0,285z"></path>
 																	</g>
 																</svg><i class="fab fa-instagram"></i>
-																<h2 class="mb-0">Follow @TaQwa</h2>
+																<h2 class="mb-0">Follow @Haider</h2>
 															</div><!-- Follow Cap -->
 														</div>
 														<div class="col-md-6 col-sm-6 col-lg-4">
 															<div class="tq-follow-boxes d-flex position-relative w-100">
 																<div class="tq-follow-box d-flex flex-column">
 																	<a href=""><img class="img-fluid w-100"
-																			src="images/tq-insta-img1.jpg.webp" alt=""
+																			src="{{ asset('frontend/images/tq-insta-img1.jpg.webp') }}" alt=""
 																			loading="lazy"></a>
 																	<a href=""><img class="img-fluid w-100"
-																			src="images/tq-insta-img2.jpg.webp" alt=""
+																			src="{{ asset('frontend/images/tq-insta-img2.jpg.webp') }}" alt=""
 																			loading="lazy"></a>
 																</div>
 																<div class="tq-follow-box tq-mt-60 d-flex flex-column">
 																	<a href=""><img class="img-fluid w-100"
-																			src="images/tq-insta-img3.jpg.webp" alt=""
+																			src="{{ asset('frontend/images/tq-insta-img3.jpg.webp') }}" alt=""
 																			loading="lazy"></a>
 																	<a href=""><img class="img-fluid w-100"
-																			src="images/tq-insta-img4.jpg.webp" alt=""
+																			src="{{ asset('frontend/images/tq-insta-img4.jpg.webp') }}" alt=""
 																			loading="lazy"></a>
 																</div>
 															</div><!-- Follow Boxes -->
@@ -1934,18 +1934,18 @@ C502.07,180.55,518.51,190.36,526,212z"></path>
 															<div class="tq-follow-boxes d-flex position-relative w-100">
 																<div class="tq-follow-box tq-mt-60 d-flex flex-column">
 																	<a href=""><img class="img-fluid w-100"
-																			src="images/tq-insta-img5.jpg.webp" alt=""
+																			src="{{ asset('frontend/images/tq-insta-img5.jpg.webp') }}" alt=""
 																			loading="lazy"></a>
 																	<a href=""><img class="img-fluid w-100"
-																			src="images/tq-insta-img6.jpg.webp" alt=""
+																			src="{{ asset('frontend/images/tq-insta-img6.jpg.webp') }}" alt=""
 																			loading="lazy"></a>
 																</div>
 																<div class="tq-follow-box d-flex flex-column">
 																	<a href=""><img class="img-fluid w-100"
-																			src="images/tq-insta-img7.jpg.webp" alt=""
+																			src="{{ asset('frontend/images/tq-insta-img7.jpg.webp') }}" alt=""
 																			loading="lazy"></a>
 																	<a href=""><img class="img-fluid w-100"
-																			src="images/tq-insta-img8.jpg.webp" alt=""
+																			src="{{ asset('frontend/images/tq-insta-img8.jpg.webp') }}" alt=""
 																			loading="lazy"></a>
 																</div>
 															</div><!-- Follow Boxes -->
@@ -1963,7 +1963,7 @@ C502.07,180.55,518.51,190.36,526,212z"></path>
 			</section>
 		</div>
 
-		
+
 
 
 	</main>
