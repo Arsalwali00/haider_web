@@ -1148,7 +1148,7 @@ C502.07,180.55,518.51,190.36,526,212z"></path>
 																	<div
 																		class="tq-pillar-head d-flex flex-column align-items-center w-100">
 																		<img decoding="async" class="img-fluid"
-																			src="images/pillar-1.png" alt="(Prayer)">
+																			src="{{ asset('frontend/images/pillar-1.png') }}" alt="(Prayer)">
 																		<h4 class="mb-0">Salah <br>(Prayer)</h4>
 																	</div><!-- Pillar Head -->
 																	<div
@@ -1197,7 +1197,7 @@ C502.07,180.55,518.51,190.36,526,212z"></path>
 																	<div
 																		class="tq-pillar-head d-flex flex-column align-items-center w-100">
 																		<img decoding="async" class="img-fluid"
-																			src="images/pillar-1.png" alt="(Fasting)">
+																			src="{{ asset('frontend/images/pillar-1.png') }}" alt="(Fasting)">
 																		<h4 class="mb-0">Sawm <br>(Fasting)</h4>
 																	</div><!-- Pillar Head -->
 																	<div
@@ -1246,7 +1246,7 @@ C502.07,180.55,518.51,190.36,526,212z"></path>
 																	<div
 																		class="tq-pillar-head d-flex flex-column align-items-center w-100">
 																		<img decoding="async" class="img-fluid"
-																			src="{{ asset('frontend/') }}images/pillar-1.png"
+																			src="{{ asset('frontend/images/pillar-1.png') }}"
 																			alt="(Almsgiving)">
 																		<h4 class="mb-0">Zakat <br>(Almsgiving)</h4>
 																	</div><!-- Pillar Head -->
