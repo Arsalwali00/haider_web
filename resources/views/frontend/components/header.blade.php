@@ -16,7 +16,7 @@
 	C104.81,178.91,97.44,183.23,93.08,191.11z"></path>
 										</g>
 									</svg>
-									<img src="images/logo-insignia.png.webp" alt="" loading="lazy">
+									<img src="{{ asset('frontend/images/logo-insignia.png.webp') }}" alt="" loading="lazy">
 								</a>
 							</div><!-- Logo -->
 						</div>
